@@ -18,7 +18,7 @@ public class HeroInputController : MonoBehaviour {
 
 	void OnSwipeDetected (Swipe direction, Vector2 swipeVelocity)
 	{
-		print ("Direction: " + direction + " Velocity: " + swipeVelocity);
+		//print ("Direction: " + direction + " Velocity: " + swipeVelocity);
 		hero.Turn (direction);
 	}
 
